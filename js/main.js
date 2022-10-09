@@ -17,10 +17,6 @@ function akanNames() {
 
     var dateInput = prompt("Enter date of birth(YYYY-MM-DD):");//prompts user input
 
-
-
-
-
     var birthDates = new Date(dateInput);//uses variable dataIput from user prompt
 
     var dateExact = birthDates.getDay();
@@ -46,15 +42,11 @@ function akanNames() {
 
                 document.getElementById("myFeedback").innerHTML = ("Your Akan name is " + genderMale);//alert for male Gender
 
-
-
             }
 
             else {
 
                 document.getElementById("myFeedback").innerHTML = ("Your Akan name is " + genderFemale);//alert for female Gender
-
-
 
             }
         }
@@ -66,7 +58,7 @@ function akanNames() {
 
     else {
 
-        alert("wrong date format...use this Format YYYY-MM-DD")
+        alert("Wrong Date Format...use this Format YYYY-MM-DD...e.g 2022-10-10")
 
     }
 
